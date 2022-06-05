@@ -10,3 +10,121 @@
  * License GNU General Public v3 or Later
  * License URI: http://www.gnu.org/license/gpl-3.0.html
 **/
+
+// THEME SETTINGS
+
+    // THEME PATH
+        $theme-path: "/wp-content/themes/scgolfpanel";
+
+    // COLORS
+        // BASE SETTINGS
+            $color-scgolfpanel-green: #00672f;
+            $color-scgolfpanel-brown: #948056;
+            $color-scgolfpanel-beige: #ccc999;
+            $color-scgolfpanel-gray: #444544;
+            $color-scgolfpanel-blue: #0072bb;
+
+        // @IMPORT | FILES
+            @import "variables/colors";
+
+    // UNITS
+        // BASE SETTINGS
+            $base-unit: 1.00rem;
+            $site-width-min: 100.00%;
+            $site-width-max: 100.00%;
+            $site-width-content: 1920px;
+
+        // @IMPORT | FILES
+            @import "variables/units";
+
+    // MEDIA QUERIES
+        // BASE SETTINGS
+            $media-breakpoint-xs: 575px;
+            $media-breakpoint-sm: 576px;
+            $media-breakpoint-md: 768px;
+            $media-breakpoint-lg: 992px;
+            $media-breakpoint-xl: 1200px;
+            $media-breakpoint-xxl: 1440px;
+
+        // @IMPORT | FILES
+            @import "variables/media";
+
+    // LINKS
+        // BASE SETTINGS
+            $link-color: $color-scgolfpanel-green-0;
+            $link-hover-color: $color-scgolfpanel-green-light-4;
+
+        // @IMPORT | FILES
+            @import "objects/links";
+
+    // TEXT
+        // BASE SETTINGS
+            // FONT STACKS
+                $font-sans: "Roboto Flex", Helvetica, Arial, sans-serif;
+                $font-serif: Merriweather, Georgia, serif;
+
+            // HEADINGS
+                $heading-text: $font-serif;
+                $heading-text-color: $color-scgolfpanel-brown-0;
+
+            // BODY
+                $body-text: $font-sans;
+                $body-text-color: $color-grayscale-dark-4;
+
+            // LINKS
+                $text-link-color: $link-color;
+                $text-link-hover-color: $link-hover-color;
+
+        // @IMPORT | FILES
+            @import "objects/text";
+
+    // LAYOUT SETTINGS
+        // BASE SETTINGS
+            $body-background-color: $color-grayscale-light-9;
+            $body-columns-gutter: $base-unit * 0.50;
+            $body-mobile-gutter: $base-unit;
+
+        // @IMPORT | FILES
+            @import "layouts/site";
+            @import "layouts/clearfix";
+            @import "layouts/devices";
+            @import "layouts/flexbox";
+            @import "layouts/wrappers";
+            @import "objects/images";
+            @import "objects/videos";
+
+    // OBJECT SETTINGS
+        // BUTTONS
+            // BASE SETTINGS
+                $button-color: $link-color;
+                $button-font: $body-text;
+
+            // @IMPORT | FILES
+                @import "objects/buttons";
+
+        // BORDERS
+            // BASE SETTINGS
+                $border-width: 0.20rem;
+                $border-radius: 0.00rem;
+                $border-color: $color-grayscale-light-12;
+                $border-section: $border-width solid $border-color;
+
+            // @IMPORT | FILES
+                @import "objects/borders";
+
+        // SHADOWS
+            // BASE SETTINGS
+                $shadow-main: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.10);
+
+            // @IMPORT | FILES
+                @import "objects/shadows";
+
+        // BACKGROUNDS
+            // BASE SETTINGS
+            // @IMPORT | FILES
+                @import "objects/backgrounds";
+
+        // GRADIENTS
+            // BASE SETTINGS
+            // @IMPORT | FILES
+                @import "objects/gradients";
