@@ -1,0 +1,70 @@
+{
+    "name": "theme/scgolfpanel",
+    "description": "Setup required assets for theme",
+    "type": "wordpress-theme",
+    "minimum-stability": "stable",
+
+    "authors": [
+        {
+            "name": "Scott Shealy",
+            "email": "vsshealy@gmail.com"
+        }
+    ],
+
+    "extra": {
+        "installer-paths": {
+            "../../plugins/{$name}/": [
+                "wpackagist-plugin/*",
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+
+    "require": {
+        "wpackagist-plugin/advanced-custom-fields": "*",
+        "wpackagist-plugin/akismet": "*",
+        "wpackagist-plugin/bbpress": "*",
+        "wpackagist-plugin/breadcrumb-navxt": "*",
+        "wpackagist-plugin/custom-post-type-ui": "*",
+        "wpackagist-plugin/disable-gutenberg": "*",
+        "wpackagist-plugin/elementor": "*",
+        "wpackagist-plugin/ele-custom-skin": "*",
+        "wpackagist-plugin/google-language-translator": "*",
+        "wpackagist-plugin/google-site-kit": "*",
+        "wpackagist-plugin/health-check": "*",
+        "wpackagist-plugin/hummingbird-performance": "*",
+        "wpackagist-plugin/jetpack": "*",
+        "wpackagist-plugin/php-everywhere": "*",
+        "wpackagist-plugin/redirection": "*",
+        "wpackagist-plugin/relevanssi": "*",
+        "wpackagist-plugin/search-filter": "*",
+        "wpackagist-plugin/sucuri-scanner": "*",
+        "wpackagist-plugin/svg-support": "*",
+        "wpackagist-plugin/theme-check": "*",
+        "wpackagist-plugin/ultimate-dashboard": "*",
+        "wpackagist-plugin/wordfence": "*",
+        "wpackagist-plugin/wordpress-seo": "*",
+        "wpackagist-plugin/wp-file-manager": "*",
+        "wpackagist-plugin/wp-mail-smtp": "*",
+        "wpackagist-plugin/wp-nested-pages": "*",
+        "wpackagist-plugin/wp-optimize": "*",
+        "wpackagist-plugin/wp-retina-2x": "*",
+        "wpackagist-plugin/wp-smushit": "*",
+        "wpackagist-plugin/wpforms-lite": "*",
+        "wpackagist-plugin/wps-hide-login": "*"
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        }
+    ],
+
+    "config": {
+        "secure-http": false,
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
