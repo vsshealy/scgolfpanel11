@@ -1,0 +1,102 @@
+/**
+ * sass/parts/footer/files/footer-logo.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0
+ * @copyright 2022
+**/
+
+#footer-logo {
+    // GLOBAL
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+        @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+        @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+
+    .row {
+        // GLOBAL
+            align-items: center;
+
+        // MOBILE
+            @media #{$screen-xs} {
+                .col-sm-4 {
+                    width: 33.33%;
+                } //.COL-SM-4
+
+                .col-sm-8 {
+                    width: 66.66%;
+                } //.COL-SM-8
+            } //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+            @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+            @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+    } //.ROW
+
+    #{$text-headings-all} {
+        // GLOBAL
+            margin: $margin-none;
+            color: $color-grayscale-light-12;
+
+        // MOBILE
+            @media #{$screen-xs} {
+                font-size: 1.50em;
+            } //.COL-XS
+            @media #{$screen-sm} {
+                font-size: 2.00em;
+            } //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {
+                font-size: 2.50em;
+            } //.COL-XL
+            @media #{$screen-xxl} {
+                font-size: 3.00em;
+            } //.COL-XXL
+            @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+            @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+    } //.TEXT-HEADINGS-ALL
+
+    img {
+        // GLOBAL
+            height: auto;
+            width: 100.00%;
+            display: block;
+            margin: 0.00rem auto;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+            @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+        @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+    } //IMG
+
+} //#FOOTER-LOGO

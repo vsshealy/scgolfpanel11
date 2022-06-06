@@ -10,16 +10,17 @@
 
         <?php 
             if (! defined('ABSPATH')) {
-            exit;
+                exit;
+            }
 
             if (! function_exists('elementor_theme_do_location') || ! elementor_theme_do_location('footer')) {
-                if (did_action('elementor/loaded') && hello_header_experiment_active()) {
-                    get_template_part('template-parts/dynamic-footer');
+                if (did_action('elementor/loaded') && hello_header_footer_experiment_active()) {
+                    get_template_part('php/theme/templates/dynamic-footer');
                 } else {
-                    get_template_part('template-parts/footer');
+                    get_template_part('php/theme/templates/footer');
                 }
             }
-        } ?>
+        ?>
 
         <div id="footer-scripts">
             

@@ -128,3 +128,23 @@
             // BASE SETTINGS
             // @IMPORT | FILES
                 @import "objects/gradients";
+
+// EXTERNAL SETTINGS
+    // BOOTSTRAP
+        // BASE SETTINGS
+        // @IMPORT | FILES
+            @import "external/bootstrap";
+
+    // ELEMENTOR
+        // BASE SETTINGS
+        // @IMPORT | FILES
+            @import "external/elementor";
+
+// PARTS
+    // FOOTER
+        // BASE SETTINGS
+            $footer-background-image: "#{$theme-path}/images/background-images/mountvintage-03-1920x1080.jpeg";
+            $footer-primary-gradient: linear-gradient(0deg, rgba($color-scgolfpanel-green-dark-6, 0.95) 0.00%, rgba($color-scgolfpanel-green-dark-4, 0.85) 50.00%, rgba($color-scgolfpanel-green, 0.50) 100.00%);
+
+        // @IMPORT | FILES
+            @import "parts/footer/main";
