@@ -1,0 +1,142 @@
+/**
+ * sass/external/wp-forms.scss
+ * @package scgolfpanel
+ * @author Scott Shealy
+ * @version 1.0.0
+ * @copyright 2022
+**/
+
+.wpforms {
+    // GLOBAL
+    // MOBILE
+        @media #{$screen-xs} {} //.COL-XS
+        @media #{$screen-sm} {} //.COL-SM
+        @media #{$screen-md} {} //.COL-MD
+        @media #{$device-mobile} {} //.MOBILE
+
+    // DESKTOP
+        @media #{$device-desktop} {} //.DESKTOP
+        @media #{$screen-lg} {} //.COL-LG
+        @media #{$screen-xl} {} //.COL-XL
+        @media #{$screen-xxl} {} //.COL-XXL
+        @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+        @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+
+    &-container {
+        // GLOBAL
+            margin-bottom: $margin-none !important;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+            @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+            @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+    } //.WPFORMS-CONTAINER
+
+    &-field-container {
+        // GLOBAL
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+            @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+            @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+
+        input, textarea {
+            // GLOBAL
+                &::placeholder {
+                    color: $color-grayscale-light-4 !important;
+                } //:PLACEHOLDER
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+                @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+        } //INPUT, TEXTAREA
+
+    } //.WPFORMS-FIELD-CONTAINER
+
+    &-submit-container {
+        // GLOBAL
+            padding-top: $padding-none !important;
+
+        // MOBILE
+            @media #{$screen-xs} {} //.COL-XS
+            @media #{$screen-sm} {} //.COL-SM
+            @media #{$screen-md} {} //.COL-MD
+            @media #{$device-mobile} {} //.MOBILE
+
+        // DESKTOP
+            @media #{$device-desktop} {} //.DESKTOP
+            @media #{$screen-lg} {} //.COL-LG
+            @media #{$screen-xl} {} //.COL-XL
+            @media #{$screen-xxl} {} //.COL-XXL
+            @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+            @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+
+        button {
+            // GLOBAL
+                @extend .button-solid;
+                width: 100.00% !important;
+                display: inline-block !important;
+                margin: $margin-none !important;
+                margin-top: $margin-sm !important;
+                padding: $padding-xs $padding-sm !important;
+                font-family: $button-text !important;
+                font-size: $button-text-size !important;
+                font-weight: $button-font-weight !important;
+                text-align: center !important;
+                text-transform: $button-text-style !important;
+                background-color: $button-solid-color !important;
+                border: $button-solid-border !important;
+                color: $button-solid-text-color !important;
+
+                &:hover {
+                    background-color: $button-solid-hover-color !important;
+                    border: $button-solid-hover-border !important;
+                    color: $button-solid-hover-text-color !important;
+                } //:HOVER
+
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {
+                    width: 50.00% !important;
+                } //.DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+                @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+        } //BUTTON
+    } //.WPFORMS-SUBMIT-CONTAINER
+
+} //.WP-FORMS

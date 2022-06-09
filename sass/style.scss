@@ -107,6 +107,7 @@
                 $border-width: 0.20rem;
                 $border-radius: 0.00rem;
                 $border-color: $color-grayscale-light-12;
+                $border-outline: 1px solid $border-color;
                 $border-section: $border-width solid $border-color;
 
             // @IMPORT | FILES
@@ -115,6 +116,7 @@
         // SHADOWS
             // BASE SETTINGS
                 $shadow-main: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.10);
+                $shadow-text: 0.00rem 0.00rem 0.50rem rgba($color-grayscale-dark-9, 0.80);
 
             // @IMPORT | FILES
                 @import "objects/shadows";
@@ -140,6 +142,11 @@
         // @IMPORT | FILES
             @import "external/elementor";
 
+    // WP-FORMS
+        // BASE SETTINGS
+        // @IMPORT | FILES
+            @import "external/wpforms";
+
 // PARTS
     // FOOTER
         // BASE SETTINGS
@@ -148,3 +155,33 @@
 
         // @IMPORT | FILES
             @import "parts/footer/main";
+
+    // BANNERS
+        // BASE SETTINGS
+            $banner-height: 50.00rem;
+            $banner-text-background-color: $color-scgolfpanel-brown;
+
+        // @IMPORT | FILES
+            @import "parts/banners/main";
+
+    // HEROES
+        // BASE SETTINGS
+            $hero-home-height: 100.00vh;
+            $hero-subpage-height: 40.00vh;
+            $hero-gradient: linear-gradient(0deg, rgba($color-grayscale-dark-9, 0.95) 0.00%, rgba($color-grayscale-dark-9, 0.85) 50.00%, rgba($color-scgolfpanel-blue-dark-9, 0.50) 100.00%);
+
+        // @IMPORT | FILES
+            @import "parts/heroes/main";
+
+    // SECTIONS
+        // BASE SETTINGS
+            $section-background-color: $color-scgolfpanel-beige-0;
+            
+        // @IMPORT | FILES
+            @import "parts/sections/main";
+
+// PAGES
+    // HOME
+        // BASE SETTINGS
+        // @IMPORT | FILES
+            @import "pages/index";

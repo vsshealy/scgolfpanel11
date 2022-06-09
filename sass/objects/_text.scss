@@ -54,7 +54,7 @@
 // HEADINGS
     // SETTINGS
         $heading-text-size: $font-size-base * 1.00;
-        $heading-text-size-increase: 0.50;
+        $heading-text-size-increase: 0.25;
         $heading-text-style: normal;
         $heading-text-height: $line-height-condensed;
         $heading-text-spacing: $letter-spacing-normal;
@@ -158,7 +158,9 @@
                 @media #{$device-desktop} {} //.DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
-                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$screen-xxl} {
+                    font-size: $heading-text-size + ($heading-text-size-increase * 6.00);
+                } //.COL-XXL
                 @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
                 @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
         } //.TEXT-HEADINGS-H1
@@ -177,7 +179,9 @@
                 @media #{$device-desktop} {} //.DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
-                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$screen-xxl} {
+                    font-size: $heading-text-size + ($heading-text-size-increase * 5.00);
+                } //.COL-XXL
                 @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
                 @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
         } //.TEXT-HEADINGS-H2
@@ -196,7 +200,9 @@
                 @media #{$device-desktop} {} //.DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
-                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$screen-xxl} {
+                    font-size: $heading-text-size + ($heading-text-size-increase * 4.00);
+                } //.COL-XXL
                 @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
                 @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
         } //.TEXT-HEADINGS-H3
@@ -215,7 +221,9 @@
                 @media #{$device-desktop} {} //.DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
-                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$screen-xxl} {
+                    font-size: $heading-text-size + ($heading-text-size-increase * 2.50);
+                } //.COL-XXL
                 @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
                 @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
         } //.TEXT-HEADINGS-H4
@@ -234,7 +242,9 @@
                 @media #{$device-desktop} {} //.DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
-                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$screen-xxl} {
+                    font-size: $heading-text-size + ($heading-text-size-increase * 1.50);
+                } //.COL-XXL
                 @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
                 @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
         } //.TEXT-HEADINGS-H5
@@ -253,7 +263,9 @@
                 @media #{$device-desktop} {} //.DESKTOP
                 @media #{$screen-lg} {} //.COL-LG
                 @media #{$screen-xl} {} //.COL-XL
-                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$screen-xxl} {
+                    font-size: $heading-text-size + ($heading-text-size-increase * 0.50);
+                } //.COL-XXL
                 @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
                 @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
         } //.TEXT-HEADINGS-H6
