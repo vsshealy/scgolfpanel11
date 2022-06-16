@@ -30,8 +30,8 @@
                     </div>
                 </div>
 
-                <!-- #FOOTER-PRIMARY-MENU -->
-                <div id="footer-primary-menu" class="columns col-sm-12 col-md-6">
+                <!-- #FOOTER-MENU -->
+                <div id="footer-menu" class="columns col-sm-12 col-md-6">
                     <?php include(get_stylesheet_directory().'/php/menus/menu-footer-primary.php'); ?>
                 </div>
 

@@ -1,6 +1,6 @@
 <?php 
     /**
-     * php/theme/templates/dynamic-header.php
+     * template-parts/dynamic-header.php
      * @package scgolfpanel
      * @author Scott Shealy
      * @version 1.0.0
@@ -9,4 +9,9 @@
 ?>
 
 <!-- #HEADER-MAIN -->
-<header id="header-main"></header>
+<header id="header-main">
+
+    <!-- #HEADER-PRIMARY -->
+    <?php include(get_stylesheet_directory().'/php/header/header-primary.php'); ?>
+
+</header>

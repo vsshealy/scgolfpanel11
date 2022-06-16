@@ -1,6 +1,6 @@
 <?php 
     /**
-     * php/theme/templates/footer.php
+     * template-parts/footer.php
      * @package scgolfpanel
      * @author Scott Shealy
      * @version 1.0.0

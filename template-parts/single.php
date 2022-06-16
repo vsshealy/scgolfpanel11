@@ -1,6 +1,6 @@
 <?php 
     /**
-     * php/theme/templates/single.php
+     * template-parts/single.php
      * @package scgolfpanel
      * @author Scott Shealy
      * @version 1.0.0

@@ -1,6 +1,6 @@
 <?php 
     /**
-     * php/theme/templates/dynamic-footer.php
+     * template-parts/dynamic-footer.php
      * @package scgolfpanel
      * @author Scott Shealy
      * @version 1.0.0
