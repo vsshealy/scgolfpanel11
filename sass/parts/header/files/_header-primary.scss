@@ -166,6 +166,25 @@
             @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
             @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
 
+        nav.elementor-nav-menu--main {
+            // GLOBAL
+                justify-content: flex-end;
+                
+            // MOBILE
+                @media #{$screen-xs} {} //.COL-XS
+                @media #{$screen-sm} {} //.COL-SM
+                @media #{$screen-md} {} //.COL-MD
+                @media #{$device-mobile} {} //.MOBILE
+
+            // DESKTOP
+                @media #{$device-desktop} {} //.DESKTOP
+                @media #{$screen-lg} {} //.COL-LG
+                @media #{$screen-xl} {} //.COL-XL
+                @media #{$screen-xxl} {} //.COL-XXL
+                @media #{$content-width-sm} {} //.CONTENT-WIDTH-SM
+                @media #{$content-width-lg} {} //.CONTENT-WIDTH-LG
+        } //NAV.ELEMENTOR-NAV-MAIN-MENU
+
         ul.elementor-nav-menu {
             // GLOBAL
             // MOBILE
